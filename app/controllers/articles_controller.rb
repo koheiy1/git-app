@@ -47,8 +47,7 @@ class ArticlesController < ApplicationController
     end
   end
 
-  # DELETE /articles/1
-  # DELETE /articles/1.json
+
   def destroy
     @article.destroy
     respond_to do |format|
